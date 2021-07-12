@@ -1,4 +1,4 @@
-# Group YYY - {Short snappy Title of your project}
+# Group 27 - Crypto Consensus
 
 - Your title can change over time.
 
