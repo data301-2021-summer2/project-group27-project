@@ -39,5 +39,5 @@ def load_and_process():
         delta_value=lambda x: (x["close"] - x["open"]) / x["open"],
         delta_range=lambda x: x["high"] - x["low"],
     )
-    data = data.drop(columns=["symbol", "unix", "open", "high", "low", "close"])
+    data = data.drop(columns=["symbol", "unix", "high", "low", "close"])
     return data
