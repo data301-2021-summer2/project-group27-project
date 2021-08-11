@@ -41,3 +41,8 @@ def load_and_process():
     )
     data = data.drop(columns=["symbol", "unix", "high", "low", "close"])
     return data
+
+
+def generate_processed():
+    data = load_and_process()
+    data.to_csv("../data/processed/data.csv")
